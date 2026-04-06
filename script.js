@@ -22,7 +22,7 @@ function get_weather() {
             city_name.textContent = "City : " + city
             
             let temp = document.querySelector("#temperature")
-            temp.textContent = "Temperature : " + data.main.temp + " Degree Celcius"
+            temp.textContent = "Temperature : " + data.main.temp + " Degree Celsius"
             
             let condition = document.querySelector("#weather_condition")
             condition.textContent = "Description : " + data.weather[0].description
